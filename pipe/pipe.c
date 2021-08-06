@@ -5,6 +5,7 @@
 #include <sys/wait.h>
 #include <errno.h>
 
+// Compile with gcc and run
 int main(int argc, char *argv[])
 {
     int file_descriptor[2];
